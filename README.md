@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Testing sst
+Naver Clova CRS-sst 의 테스트를 위한 리액트 프로젝트.
 
 ## Available Scripts
 
