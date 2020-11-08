@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {post} from 'axios';
+import { post } from 'axios';
 
 class UploadSound extends Component {
     constructor(props) {
