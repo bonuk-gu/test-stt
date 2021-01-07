@@ -16,7 +16,9 @@ class App extends Component {
 
   callApi = async () => {
     const response = await fetch('/api/result');
+    console.log('App.js: fetch');
     const body = await response.json();
+    console.log('App.js: get response');
     return body;
   }
 
@@ -24,7 +26,7 @@ class App extends Component {
     return(
       <div>
         <UploadSound/>
-        <ShowResult result={this.state.result.result} /> 
+        <ShowResult/> 
       </div>
     );
   }
